@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./image/bangladesh-railway.png" type="image/x-icon">
+  <title>Bangladesh Railway E-Ticketing Service</title>
+    <link rel="stylesheet" href="./js/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+        <div class="container-fluid">
+          <div class="logo d-flex fs-5"><img class="w-25 h-50 align-items: center;" src="./image/bangladesh-railway.png" alt=""> <b>Bangladesh <br> Railway</b> 
+          </div>
+          <button class="navbar-toggler text-success bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-evenly" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-success" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-success" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#">Verify Ticket</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+
+
+
+    <div class="mt-5 ms-2 row">
+      <div class="col-xl-6 col-lg-6 m-auto">
+        <div class="mb-3 m-auto ms-5 row">
+          <div class="col-xl-5 col-md-5 col-sm-10 wow fadeInLeft">
+            <label for="from"class="form-label">From</label>
+            <input type="text" class="form-control" placeholder="From Station" value="" required>
+          </div>
+          <div class="col-xl-5 col-md-5 col-sm-10  wow fadeInRight">
+            <label for="from"class="form-label">To</label>
+            <input type="text" class="form-control" placeholder="To Station" value="" required>
+          </div>
+        </div>
+        <div class="row m-auto  ms-5">
+          <div class="col-xl-5 col-md-5 col-sm-10 wow fadeInLeft">
+            <label for="from"class="form-label">Date of Journey</label>
+            <input type="datetime" class="form-control" placeholder="Pick a date" value="" required>
+          </div>
+          <div class="col-xl-5 col-md-5 col-sm-1010 wow fadeInRight">
+            <label for="from"class="form-label">Choose Class</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Choose class</option>
+              <option>AC_B</option>
+                <option>AC_C</option>
+                <option>AC_S</option>
+                <option>SNIGDHA</option>
+                <option>F_BERTH</option>
+                <option>F_SEAT</option>
+                <option>F_CHAIR</option>
+                <option>S_CHAIR</option>
+                <option>SHOVAN</option>
+                <option>SHULOV</option>
+            </select>
+          </div>
+          <div class="col-10 col-sm-10 wow fadeInUp">
+            <button class="btn btn-success mt-3 mb-2 w-100" type="submit">Submit form</button>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-xl-6 col-lg-6 10 wow fadeInRight">
+        <div class="railway-image">
+          <img src="./image/train-illustration-for-train-1.jpg" alt="" class="rounded-3 w-100">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="row">
+      <div class=" col-md-12 col- col-lg-4 wow fadeInLeft">
+        
+          <div class="card m-auto mt-5 shadow" style="width: 18rem;">
+            <img src="./image/Screenshot_1-removebg-preview.png"  alt="#">
+            <div class="card-body">
+              <h3 class="card-title"><b>Search</b> </h3>
+              <p class="card-text">Choose your origin, destination, journey dates and search for trains.</p>
+            </div>
+          </div>
+        
+      </div>
+      <div class="col-md-12 col-lg-4 wow fadeInUp">
+        
+        <div class="card m-auto mt-5 shadow" style="width: 18rem;">
+          <img src="./image/Screenshot_2-removebg-preview.png"  alt="#">
+          <div class="card-body">
+            <h3 class="card-title"><b>Select</b> </h3>
+            <p class="card-text">Select your desired trip and choose
+              your seats.</p>
+          </div>
+        </div>
+      
+    </div>
+    <div class=" col-md-12 col-lg-4 wow fadeInRight">
+        
+      <div class="card m-auto mt-5 shadow" style="width: 18rem; height: 422.19px;">
+        <img src="./image/Screenshot_3-removebg-preview.png"  alt="#">
+        <div class="card-body">
+          <h3 class="card-title"><b>Pay</b> </h3>
+          <p class="card-text">Pay for the tickets via Debit / Credit Cards or bKash.</p>
+        </div>
+      </div>
+    
+  </div>
+    </div>
+    <hr>
+    <div class="d-flex gap-3 justify-content-center paid m-5">
+      <div class="bekash  wow fadeInLeft">
+        <img src="./image/bkash.png" alt="">
+      </div>
+      <div class="mastarpaid  wow fadeInUp">
+        <img src="./image/master-card.png" alt="">
+      </div>
+      <div class="visa wow fadeInRight">
+        <img src="./image/visa.png" alt="">
+      </div>
+    </div>
+    <hr class="mb-5 mt-5">
+    <div class="row">
+      <div class="col-12 text-center wow fadeInUp">
+        <b>* The Tickets are issued by Bangladesh Railway’s Centrally Computerized Seat Reservation & Ticketing System (CCSRTS) and Shohoz-Synesis-Vincen JV is responsible for designing,development, implementation, technical operation & maintenance of the system.</b>
+      </div>
+    </div>
+    <hr id="text" class=" text-success  mt-5">
+    <div class="footer-section d-flex">
+    <div class="logo-railway wow fadeInLeft">
+      <img src="./image/bangladesh-railway.png" alt="" class="w-75">
+    </div>
+    <div class="text wow fadeInRight">
+      <b class="fs-5 wow fadeInUp">
+        Bangladesh Railway</b><br>
+        <b class="fs-5 mt-3 text-success wow fadeInUp">
+          নিরাপদ . আরামদায়ক . সাশ্রয়ী</b>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-12 wow fadeInUp">
+    <div class=" mt-2 text-center">
+      <p>Powered by</p>
+    </div>
+   <div class=" text-success text-center">
+     <h4>Shohoz-Synesis-Vincen JV </h4>
+   </div>
+    
+  </div>
+
+  <script src="./js/js/bootstrap.bundle.min.js"></script>
+  <script src="./js plagging/wow.min.js"></script>
+  <script src="./js plagging/custom.js"></script>
+</body>
+</html>
